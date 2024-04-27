@@ -14,8 +14,8 @@ const app = new Frog({
 app.frame('/', (c) => {
   return c.res({
     action: '/finish',
-    image: `${process.env.NEXT_PUBLIC_SITE_URL}/gaza.jpeg`,
-    imageAspectRatio:"1.91:1",
+    image: `${process.env.NEXT_PUBLIC_SITE_URL}/donate.jpeg`,
+    imageAspectRatio:"1:1",
     headers:{
       'Content-Type': 'image/jpeg'
     },
