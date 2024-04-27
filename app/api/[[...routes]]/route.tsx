@@ -14,7 +14,7 @@ const app = new Frog({
 app.frame('/', (c) => {
   return c.res({
     action: '/finish',
-    image: `${process.env.NEXT_PUBLIC_SITE_URL}/donate.jpeg`,
+    image: `https://gateway.lighthouse.storage/ipfs/QmPTuxS9tPBPdTyk1sDEkjvjudhbhrAJeJbN7L5ZpzeSpL`,
     imageAspectRatio:"1:1",
     headers:{
       'Content-Type': 'image/jpeg'
@@ -26,7 +26,6 @@ app.frame('/', (c) => {
     ]
   })
 })
-
 const recipientAddress = '0x8D5bF23b181EA94d3104d4192acb52427E54875A';
 
 app.transaction('/send-usdc', (c) => {
