@@ -1,0 +1,33 @@
+{
+  "name": "gaza-donations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "frog-dev": "frog dev"
+  },
+  "dependencies": {
+    "@airstack/frog": "^0.0.8",
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.19.0",
+    "@coinbase/onchainkit": "0.4.3",
+    "alchemy-sdk": "^3.2.1",
+    "axios": "^1.6.8",
+    "buffer": "^6.0.3",
+    "ethers": "^5.7.2",
+    "frog": "latest",
+    "hono": "^4",
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
